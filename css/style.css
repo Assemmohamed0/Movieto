@@ -1,0 +1,256 @@
+/* Aside */
+
+
+body {
+  background-color: #131722;
+  color:white;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.main-dash {
+  background-color: #131722;
+  color: #ffc400;
+}
+
+.admin {
+  border-bottom: 0.1rem solid #222028;
+  /* width: 5rem; */
+}
+
+.admin .user,
+.admin .log-out {
+  color: white;
+}
+
+.admin .user {
+  font-size: 0.7rem;
+}
+
+.admin .log-out {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+a {
+  color: white;
+}
+
+.active,
+a:hover {
+  color: #ffc400 !important;
+}
+
+.nav {
+  width: 14rem;
+  height: 3rem;
+}
+
+.nav .navs .first {
+  margin-top: 8px;
+}
+
+.nav .navs .second {
+  margin-top: -24px;
+}
+
+.nav .navs .third {
+  margin-top: -27px;
+}
+
+.show-add {
+  margin-top: 15px;
+  background-color: #222028;
+  color: white;
+}
+
+.dashboard .add-admin {
+  margin-top: -0.8rem;
+}
+
+.copy-right > span {
+  color: #33d1cc;
+}
+
+.copy-right div span {
+  color: #ffc400;
+}
+
+.main_title {
+  color: white;
+  border-bottom: 0.1rem solid #222028;
+}
+
+.main .stats {
+  background-color: #222028;
+  height: 10rem;
+  color: white;
+  border-radius: 1rem;
+}
+
+.main .stats span {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.main .stats svg {
+  color: #ffc400;
+  right: 2rem;
+  bottom: 3rem;
+}
+
+.categories {
+  border-top: 0.1rem solid #222028;
+  padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.my-border-right {
+  border-right: 0.1rem solid #222028;
+}
+
+
+/* Home Page */
+
+
+.main_title {
+  color: white;
+  border-bottom: 0.1rem solid #222028;
+}
+.main .stats {
+  background-color: #222028;
+  height: 10rem;
+  color: white;
+  border-radius: 1rem;
+}
+.main .stats span {
+  color: rgba(255, 255, 255, 0.7);
+}
+.main .stats svg {
+  color: #ffc400;
+  right: 2rem;
+  bottom: 3rem;
+}
+
+
+/* add movie */
+
+
+.image {
+  background-color: #222028;
+  height: 25rem;
+  border-radius: 0.5rem;
+}
+
+ .image label {
+  color: rgba(255, 255, 255, 0.7);
+  transition: 0.4s ease;
+  z-index: 2;
+  cursor: pointer;
+  right: 0;
+  left: 0;
+}
+
+ .image input {
+  background-color: #222028;
+  opacity: 0;
+  right: 0;
+  top: 50%;
+}
+
+ .image img {
+  top: -100px;
+  left: -100px;
+  right: -100px;
+  bottom: -100px;
+  z-index: 1;
+  background-size: cover;
+}
+
+ .title input,
+ .description input,
+ .title select {
+  color: #fff;
+  background-color: #222028;
+  height: 3.5rem;
+  border: 0.1rem solid transparent;
+  border-radius: 0.4rem;
+}
+
+ .description input {
+  height: 7rem;
+}
+
+#image_form {
+  background-size: 100% 100%;
+}
+
+
+
+/* Show Movies - Show Actors */
+
+
+.content .table thead {
+  background-color: #999;
+}
+
+.table-img {
+  max-width: 60px;
+  max-height: 60px;
+}
+
+.show-table tbody td,
+.show-table tbody th {
+  vertical-align: middle
+}
+
+.action i {
+  transition: all .3s ease;
+}
+
+.action i:hover {
+  transform: scale(1.2);
+}
+
+.show-table tbody tr {
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.show-table tbody tr:hover {
+
+  background-color: rgba(153, 153, 153, 0.358);
+}
+
+
+/* Assign */
+
+
+.assign select {
+  width: 400px;
+}
+
+.bg-main {
+  background-color: #222028;
+}
+
+
+/* Movie Details */
+
+.actor-name {
+  cursor: pointer;
+}
+
+.Actors,
+.Movies {
+  line-height: 2.5;
+}
+
+
+
+
+select {
+  cursor: pointer;
+}

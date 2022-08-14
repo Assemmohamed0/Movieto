@@ -1,0 +1,212 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #131722;
+}
+.container-fluid {
+  background-color: #131722;
+}
+.main-dashBoard .text {
+  border-bottom: 0.1rem solid #222028;
+  color: #ffc400;
+}
+.main-dashBoard .menu {
+  border-right: 0.1rem solid #222028;
+}
+.admin {
+  border-bottom: 0.1rem solid #222028;
+  /* width: 5rem; */
+}
+.admin .user,
+.admin .log-out {
+  color: white;
+}
+.admin .user {
+  font-size: 0.7rem;
+}
+.admin .log-out {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+a {
+  color: white;
+}
+a .active,
+a:hover {
+  color: #ffc400;
+  font-size: 1rem;
+}
+.nav {
+  width: 12rem;
+  height: 2.5rem;
+}
+.nav .navs .first {
+  margin-top: 8px;
+}
+.nav .navs .second {
+  margin-top: -24px;
+}
+.nav .navs .third {
+  margin-top: -27px;
+}
+.show-add {
+  margin-top: 15px;
+  background-color: #222028;
+  color: white;
+}
+.dashboard .add-admin {
+  margin-top: -0.8rem;
+}
+
+.copy-right > span {
+  color: #33d1cc;
+}
+.copy-right div span {
+  color: #ffc400;
+}
+
+.main_title {
+  color: white;
+  border-bottom: 0.1rem solid #222028;
+}
+.main .stats {
+  background-color: #222028;
+  height: 10rem;
+  color: white;
+  border-radius: 1rem;
+}
+.main .stats span {
+  color: rgba(255, 255, 255, 0.7);
+}
+.main .stats svg {
+  color: #ffc400;
+  right: 2rem;
+  bottom: 3rem;
+}
+.main .slide {
+  text-align: -webkit-center;
+}
+.main .carousel-inner .scroll-image-movies img {
+  width: 60%;
+  height: 20rem;
+  border-radius: 2rem;
+  margin-bottom: 5rem;
+}
+.main .carousel-inner .scroll-image-actors img {
+  width: 50%;
+  height: 20rem;
+  border-radius: 2rem;
+  margin-bottom: 5rem;
+}
+.bg-movie {
+  background-color: #182625;
+}
+/* second page : show movies  */
+.main table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 62.5rem;
+  border-spacing: 0;
+}
+@media (max-width: 992px) {
+  .main table {
+    min-width: 40rem;
+  }
+}
+@media (max-width: 768px) {
+  .main table {
+    min-width: 30rem;
+  }
+}
+.main .table thead {
+  border-bottom: 2rem solid darkslategrey;
+}
+.main .table thead th {
+  background-color: darkslategrey;
+  font-size: 1rem;
+  padding: 0 15px 0 15px;
+  line-height: 100%;
+  margin-bottom: 0;
+  border: none;
+}
+.main .table tbody tr {
+  border-bottom: 1rem solid darkslategrey;
+}
+.main .table tbody td,
+.main .table tbody .Id {
+  padding: 0.8rem;
+  border: 0px solid transparent;
+}
+.main .table tbody .main-table:hover {
+  cursor: pointer;
+  color: #ffc400;
+}
+.main .table tbody .rating svg {
+  color: #ffc400;
+}
+.main .table tbody .action > svg {
+  padding-left: 0.5rem;
+  color: cornflowerblue;
+}
+.main .table tbody .action .delete {
+  color: firebrick;
+}
+.main-delete {
+  display: flex;
+  justify-content: center;
+  border-radius: 0.5rem;
+}
+.act-div {
+  display: block;
+  background-color: #1a191f;
+  left: 50%;
+  width: 25rem;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  border-radius: 0.5rem;
+}
+.btn {
+  color: #fff;
+  border: 0.1rem solid #ffc400;
+  margin-left: 1rem;
+}
+/* page five : add movie  */
+.image {
+  background-color: #222028;
+  height: 25rem;
+  border-radius: 0.5rem;
+}
+.main .image label {
+  color: rgba(255, 255, 255, 0.7);
+  transition: 0.4s ease;
+  z-index: 2;
+  cursor: pointer;
+  right: 0;
+  left: 0;
+}
+.main .image input {
+  background-color: #222028;
+  opacity: 0;
+  left: -99999px;
+}
+.main .image img {
+  top: -100px;
+  left: -100px;
+  right: -100px;
+  bottom: -100px;
+  z-index: 1;
+  background-size: cover;
+  max-width: 100%;
+  max-height: 100%;
+}
+.main .title input,
+.main .description input,
+.main .title select {
+  color: #fff;
+  background-color: #222028;
+  height: 3.5rem;
+  border: 0.1rem solid transparent;
+  border-radius: 0.4rem;
+}
+.main .description input {
+  height: 7rem;
+}
